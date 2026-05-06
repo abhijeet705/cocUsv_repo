@@ -25,4 +25,4 @@ jobs:
       env:
         GCP_SERVICE_ACCOUNT: ${{ secrets.COCUSVJSONKEY }}
       run: |
-        python cocForGit.py
+        python cocforgit.py
