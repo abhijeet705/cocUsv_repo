@@ -23,6 +23,6 @@ jobs:
 
     - name: Run daily script
       env:
-        GCP_SERVICE_ACCOUNT: ${{ secrets.COCUSVJSONKEY }}
+        COCUSVJSONKEY: ${{ secrets.COCUSVJSONKEY }}
       run: |
         python cocforgit.py
