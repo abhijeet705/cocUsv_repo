@@ -2,3 +2,5 @@ pandas
 gspread
 gspread_dataframe
 google-auth
+sqlalchemy
+pymysql
