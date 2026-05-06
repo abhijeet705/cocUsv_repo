@@ -34,7 +34,7 @@ gc = gspread.authorize(creds)
 
 # Open the existing spreadsheet by name
 # Make sure a file named 'Existing_Sheet_Name' exists in your Google Drive
-sh = gc.open('COC Daily Report')
+sh = gc.open('COC_Daily_Report')
 
 cocUsers = pd.read_csv("/content/drive/MyDrive/20260408 - nilakhi - COC/COC UserDetails 28apr2026.csv")
 
